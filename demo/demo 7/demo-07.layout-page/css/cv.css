@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("../img/course-phone.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: 10%;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-image: url("../img/banner-2.png");
+    background-size: cover;
+}
+
+.sub-title {
+    letter-spacing: 3px;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    width: 80%;
+    margin: 10px auto;
+    overflow: auto;
+    background: linear-gradient(to right, #33ccff 0%, #2785ff 100%);
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.section {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+.side {
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+.card {
+    margin: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .card-detail .row {
+    padding: 7px 15px;
+    width: 100%;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold
+}
+
+.card-detail .description {
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+    text-align: justify;
+}
+
+ul {
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+li span {
+    width: 42%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.star {
+    color: gray;
+}
+
+.star-checked {
+    color: orange;
+}
+
+
+
+/* Main column */
+.main {
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+
+.skill-bar .row {
+    padding: 15px 0px;
+    overflow: auto;
+}
+
+.skill-bar .title {
+    width: 25%;
+    float: left;
+    padding: 7px;
+}
+
+.skill-bar .bar {
+    width: 75%;
+    float: left;
+    background-color: rgb(215, 215, 215);
+    border-radius: 5px;
+}
+
+.skill-bar .bar .content {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.skill-bar .bar .html {
+    width: 90%;
+    background-color: #ff4cb4;
+}
+
+.skill-bar .bar .css {
+    width: 70%;
+    background-color: #8f60ff;
+}
+
+.skill-bar .bar .javascript {
+    width: 50%;
+    background-color: #4e61fa;
+}
+
+.skill-bar .bar .golang {
+    width: 85%;
+    background-color: #2b96ff;
+}
+
+.quotation {
+    font-size: 16px;
+    color: #555;
+    line-height: 2.3;
+    font-style: italic;
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: .5em 10px;
+    padding: 10px 20px;
+}
+
+.card-detail p {
+    margin: 0;
+}
+
+.quotation footer {
+    text-align: right;
+    font-style: italic;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .row {
+    margin: 10px 0px;
+    width: 100%;
+    overflow: auto;
+}
+
+.container .row .col {
+    width: 33.3%;
+    padding: 10px;
+    margin: 10px 0;
+    float: left;
+}
+
+.container .row .col {
+    width: 33.3%;
+}
+
+.icon-box .icon {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #168afe;
+    border-color: #168afe;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon-box .info {
+    text-align: center;
+}
+
+.no-border {
+    border: none;
+}
+
+.footer {
+    clear: both;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background: #168afe;
+}

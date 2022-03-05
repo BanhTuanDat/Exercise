@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+} 
+/* Nói phần này  */
+.button {
+    padding: 18px 40px;
+    line-height: 65px;
+    background-color: lightgreen;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+a:hover{
+    background-color: lightcoral;
+    color:white;
+
+}
+a:active{
+    background-color: lightblue;
+}
+/* a:visited{
+    background-color: lightgrey;
+} */
+
+
+
+.slider {
+    background-image: url(../img/adidas.JPG);
+    background-size: cover;
+    padding: 75px;
+    background-color: lightcoral;
+}
+.content {
+    width: 300px;
+    background-color: lightgrey;
+    height: 300px;
+    padding: 88.5px;
+    color: white;
+    border-width: 15px;
+    border-style: double;
+    border-color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+.content h1{
+    font-size:80px;
+    margin:0px;
+    margin-bottom:20px;
+}
+.discount{
+    text-decoration: line-through;
+    color:red;
+    font-size: 50px;
+    margin-right: 20px;
+    opacity: 0.8;
+}
+.price{
+    color:white;
+    font-size: 50px;
+}

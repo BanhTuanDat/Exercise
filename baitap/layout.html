@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        } 
+        .layout {
+            text-align: center;
+        }
+        nav {
+            width: 100%; 
+            margin-bottom: 5px;
+
+        }
+        .left {
+            width: 20%;
+            float: left;
+      
+        }
+        .center {
+            width: 60%;
+            float: left;
+            padding: 0 5px;
+            margin-bottom: 5px;
+        }
+        .right {
+            width: 20%;
+            float: left;
+      
+        }
+        footer {
+            clear: both;
+        }
+        p {
+            background-color: #ddd;
+            margin: 0;
+        }
+        .left .content {
+            height: 300px;
+        }
+        .center .content {
+            height: 300px;
+        }
+        .right .content {
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Webpage:</h2>
+    <div class="layout">
+        <nav>
+            <p>Navbar</p>
+        </nav>
+        <div class="left">
+            <p class="content">2 col</p>
+        </div>
+        <div class="center">
+            <p class="content"> 8 col</p>
+        </div>
+        <div class="right">
+           <p class="content">2 cold</p>
+        </div>
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </div>
+</body>
+</html>

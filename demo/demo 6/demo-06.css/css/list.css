@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+}
+.list{
+    width:300px;
+    height: 100vh;
+    background-color: #0000006e;;
+    color:white;    
+}
+.logo{
+    width:100%;
+    text-align: center;
+}
+.logo img{
+    width:50%;
+}
+h1{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+li{
+    font-size: 20px;
+}
+ul{
+    list-style-image:url(../img/light.png);
+}
+body{
+    background-image: url(../img/adidas.JPG);
+    background-size:cover;
+}

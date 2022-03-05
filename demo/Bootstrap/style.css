@@ -1,0 +1,21 @@
+.container-sm {
+    width: 70%;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: crimson;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.col-sm {
+    padding: 0 50px;
+    text-align: center;
+}
+
+.material-icons {
+    font-size: 50px;
+    color: blue;
+}

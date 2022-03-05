@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    
+}
+
+
+
+.header{
+    grid-column: 1/5;
+    /* height: 200px; */
+    background-color: lightcoral;
+}
+.header,.main,.left,.right,.footer{
+    padding:10px;
+}
+.left, .main, .right {
+    float: left;
+}
+.left, .right {
+    width: 25%;
+}
+.main {
+    width: 50%;
+}
+.main{
+    height: 500px;
+}
+
+.ads{
+    background-color:lightblue;
+    
+    height: 200px;
+}
+.footer{
+    height: 10vh;
+    background:palevioletred;
+    clear: both;
+}
+.content{
+    height: 50px;
+    margin:10px 0px;
+    background-color:lightblue;
+}
+#toggle-button{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    display:none;
+    cursor:pointer;
+}
+.toggle-content{
+    
+    overflow: hidden;
+    transition: all 0.5s;
+}

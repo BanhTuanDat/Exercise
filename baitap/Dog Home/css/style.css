@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* ------------------------------------------------------------------- */
+
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+}
+
+.title{
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  left: 50px;
+  top: 40px;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding-top: 40px;
+  padding-right: 100px;
+}
+
+.main-nav a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.main-nav li:hover a{
+  color: #000;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.heading-content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  transform: translate(-50%,-50%);
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.heading-content p {
+  font-weight: 400;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.container img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: white;
+}
+
+/* ------------------------------------------------------------------------------ */
+section {
+  margin-top: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+h2 {
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+.welcome p {
+  margin: 40px;
+  color: #7a7878;
+}
+
+.info {
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail {
+  width: 25%;
+  color: #7a7878;
+  padding: 20px;
+}
+
+.detail img {
+  border-radius: 50%;
+}
+
+.detail h3 {
+  color: black;
+  margin: 30px 0;
+}
+
+.white {
+  color: white;
+}
+
+.our-statistics {
+  background-image: url("../img/bg.jpg");
+  height: 400px;
+  background-size: cover;
+
+}
+
+.statistics {
+  display: flex;
+  justify-content: center;
+  height: 270px;
+  align-items: center;
+}
+
+.statistics div {
+  width: 25%;
+}
+
+.num {
+  font-size: 500%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.left {
+  width: 25%;
+  float: left;
+}
+.right{
+  width: 75%;
+  float: right;
+}
+
+.description {
+  margin: 30px 0;
+  line-height: 24px;
+  word-spacing: 2px;
+  font-size: 14px;
+  color: #7a7878;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.content {
+  box-shadow: 2px 2px 5px #dddd;
+  margin: 15px;
+}
+
+.content div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fas {
+  color: orange;
+  font-size: 50px;
+  margin: 25px 0;
+}
+
+.content div h3 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+

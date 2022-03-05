@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body {
+            padding: 0 300px;
+        }
+        .container {
+            background-color: #173451;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .item {
+            background-color: #fcbf16;
+            width: 100px;
+            margin: 10px;
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>order</h2>
+    <div class="container">
+        <div class="item" style="order: 3">1</div>
+        <div class="item" style="order: 5">2</div>
+        <div class="item" style="order: 1">3</div>
+        <div class="item" style="order: 6">4</div>
+        <div class="item" style="order: 2">5</div>
+        <div class="item">6</div>
+    </div>
+   
+    
+</body>
+</html>

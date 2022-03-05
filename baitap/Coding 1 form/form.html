@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h3>input: type="text"</h3>
+        <input type="text" name="firstname"><br>
+
+        <h3>input: type="password"</h3>
+        <input type="password" name="lastname">
+
+        <h3>input: type="email"</h3>
+        <input type="email" name="email">
+
+        <h3>input: type="number"</h3>
+        <input type="number" name="quantity" min="1" max="5">
+
+        <h3>input: type="submit"</h3>
+        <input type="submit" value="Submit">
+
+        <h3>input: type="button"</h3>
+        <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+        <h3>input: type="radio"</h3>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+
+        <h3>input: type="checkbox"</h3>
+        <input type="checkbox" name="vehicle1" value="Bike">Front-end<br>
+        <input type="checkbox" name="vehicle2" value="Car">Back-end
+
+        <h3>input: type="color"</h3>
+        Color: <input type="color" name="favcolor" value="#ff0000">
+
+        <h3>input: type="date"</h3>
+        Birthday:
+        <input type="date" name="bday">
+
+        <h3>input: type="file"</h3>
+        Select a file: <input type="file" name="myFile">
+
+        <h3>select</h3>
+        <select name="cars">
+            <option value="volvo">Tư duy và Kỹ năng lập trình</option>
+            <option value="saab">Làm chủ các ngôn ngữ lập trình</option>
+            <option value="fiat">Lập trình web front-end</option>
+            <option value="audi">Lập trình web back-end</option>
+        </select>
+
+        <h3>textarea</h3>
+        <textarea name="message" rows="10" cols="30">
+            The cat was playing in the garden.
+        </textarea>
+
+        <h3>button</h3>
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+        <h3>datalist</h3>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+    </form>
+</body>
+
+</html>

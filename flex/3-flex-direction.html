@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body {
+            padding: 0 200px;
+        }
+        .container {
+            background-color: #173451;
+            display: flex;
+        }
+        .item {
+            background-color: #fcbf16;
+            width: 100px;
+            margin: 10px;
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .row {
+            flex-direction: row;
+        }
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+        .column {
+            flex-direction: column;
+        }
+        .column-reverse {
+            flex-direction: column-reverse;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>flex-direction: row (default)</h2>
+    <div class="container row">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <h2>flex-direction: row-reverse</h2>
+    <div class="container row-reverse">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <h2>flex-direction: column</h2>
+    <div class="container column">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <h2>flex-direction: column-reverse</h2>
+    <div class="container column-reverse">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+</body>
+</html>

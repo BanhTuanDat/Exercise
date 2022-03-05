@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body {
+            padding: 0 300px;
+        }
+        .container {
+            background-color: #173451;
+            display: flex;
+            flex-wrap: wrap;
+            height: 500px;
+            align-items: center;
+
+        }
+        .item {
+            background-color: #fcbf16;
+            width: 100px;
+            /* height: 50px; */
+            margin: 10px;
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .stretch {
+            align-self: stretch;
+        }
+        .flex-start {
+            align-self: flex-start;
+        }
+        .flex-end {
+            align-self: flex-end;
+        }
+        .center {
+            align-self: center;
+        }
+        .baseline {
+            align-self: baseline;
+        }
+    </style>
+</head>
+<body>
+    <h2>align-self</h2>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item stretch">3-stretch</div>
+        <div class="item flex-start">4-flex-start</div>
+        <div class="item flex-end">5-flex-end</div>
+        <div class="item center">6-center</div>
+        <div class="item baseline">7-baseline</div>
+        <div class="item">8</div>
+        
+    </div>
+   
+    
+</body>
+</html>

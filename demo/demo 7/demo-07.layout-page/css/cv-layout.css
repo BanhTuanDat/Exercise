@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.header {
+    height: 200px;
+    background-color: red;
+}
+
+.navbar {
+    width: 80%;
+    height: 50px;
+    margin: 10px auto;
+    background-color: orange;
+}
+
+.section {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: yellow;
+}
+
+
+.side {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    background-color: green;
+}
+
+.card {
+    margin: 10px 0;
+    background: blue;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .card-detail{
+    height: 150px;
+    background: purple;
+}
+/* Main column */
+.main {
+    width: 70%;
+    float: left;
+    padding: 20px;
+    background: lightcoral;
+}
+
+.part {
+    height: 300px;
+    margin-bottom: 10px;
+    background: antiquewhite;
+}
+
+.container {
+    width: 100%;
+    background: fuchsia;
+}
+
+.container .row {
+    margin: 10px 0px;
+    width: 100%;
+    overflow: auto;
+    background: aqua;
+}
+
+.container .row .col {
+    width: 33.3%;
+    padding: 10px;
+    margin: 10px 0px;
+    float: left;
+    border: solid 1px brown;
+}
+.icon-box {
+    background: darkgrey;
+}
+.icon-box .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #168afe;
+    border-color: #168afe;
+    margin: 0 auto;
+}
+
+.icon-box .info {
+    height: 200px;
+    background: darkcyan;
+}
+
+.footer {
+    clear: both;
+    height: 100px;
+    background: crimson;
+}
